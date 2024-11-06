@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_centerHorizontal="true">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/wordInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Search a word"
+        android:background="@drawable/bg"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:drawableEnd="@drawable/search"
+        android:layout_gravity="center"
+        android:backgroundTint="#3F51B5"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/wordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/definitionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/playAudioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Pronunciation"
+        android:backgroundTint="#3F51B5"
+        android:layout_gravity="center"
+        android:drawableEnd="@drawable/voice"/>
+
+</LinearLayout>
